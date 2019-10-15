@@ -1,0 +1,1 @@
+C:/software/kafka_2.11-2.3.0/bin/windows/zookeeper-shell.bat localhost:2181 ls /brokers/ids

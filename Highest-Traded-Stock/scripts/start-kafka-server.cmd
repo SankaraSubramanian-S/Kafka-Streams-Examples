@@ -1,0 +1,1 @@
+kafka-server-start.bat %ZOOKEEPER_CONF%/server.properties
