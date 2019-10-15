@@ -46,7 +46,7 @@ public class ProducerThread implements Runnable {
             producer.send(new ProducerRecord<>(topicName, producerName+":"+fileName, data));
             messageCounter++;
         }
-        logger.trace("Finished Producer thread" + producerName + " sent " + (messageCounter -1) + " messages");
+        logger.trace("Finished Producer thread" + producerName + " sent " + messageCounter + " messages");
 
         /**
          * Input File will be moved to processed folder post processing
