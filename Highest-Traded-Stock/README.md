@@ -11,7 +11,7 @@
 
 5. Exeute ProducerApp.java which takes the following program arguments
 
-   !!!TopicName!!! !!!List of InputFileNames separated by comma!!!
+   !!!TopicName!!! !!!List of InputFileNames separated by space!!!
    Ex: stockdata C:/Projects/Kafka/KafkaRequirementPOC/src/main/resources/data/cm07JAN2019bhav.csv C:/Projects/Kafka/KafkaRequirementPOC/src/main/resources/data/cm08JAN2019bhav.csv C:/Projects/Kafka/KafkaRequirementPOC/src/main/resources/data/cm09JAN2019bhav.csv
    ![alt text](https://github.com/SankaraSubramanian-S/Kafka-Streams-Examples/blob/master/images/ProducerApp_Log.JPG)
    
